@@ -21,7 +21,5 @@ for /f "tokens=*" %%i in ('netsh wlan show profiles') do (
     )
     endlocal
 )
-pause
-
 rem Reset color
 echo %ESC%
